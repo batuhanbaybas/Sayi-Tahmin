@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Style/index.css">
+  <title>Sayı Tahmin</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="health">
+      <h3 id="health"></h3>
+    </div>
+    <div class="label">
+      <label>1-20 arasında Sayı Giriniz </label>
+      <div class="input">
+        <input id="userNumber" type="text" />
+      </div>
+      <div class="button">
+        <button class="button" onclick="calistir()" id="button" type="submit">
+          Karşılaştır
+        </button>
+        <div>
+          <div>
+            <h3 id="random" class="random"></h3>
+          </div>
+          <h5 id="result" class="result"></h5>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="Script/app.js"></script>
+</body>
+
+</html>

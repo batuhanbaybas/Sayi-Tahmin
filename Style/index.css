@@ -1,0 +1,37 @@
+* {
+  width: 350px;
+  background-color: #f8f1f1;
+}
+.main {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 15%;
+
+  padding: 15px;
+}
+.health > h3 {
+  text-align: center;
+  color: #eb5e0b;
+  font-family: "Chakra Petch", sans-serif;
+}
+.label > label {
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  padding: 20px;
+  color: #eb5e0b;
+  margin-top: 5px;
+}
+.input > input {
+  margin-top: 5px;
+  border-radius: 999px;
+  padding: 15px;
+}
+
+.button > button {
+  padding: 15px;
+
+  margin-top: 15px;
+  width: fit-content;
+  border-radius: 999px;
+  background-color: #5eaaa8;
+}
